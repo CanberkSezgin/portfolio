@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Canberk Sezgin - Bilgisayar Mühendisi | Portfolio" />
+  <title>Canberk Sezgin | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">CS</a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about" id="nav-about">Hakkımda</a>
+        <a href="#education" id="nav-education">Eğitim</a>
+        <a href="#experience" id="nav-experience">Deneyim</a>
+        <a href="#projects" id="nav-projects">Projeler</a>
+        <a href="#contact" id="nav-contact">İletişim</a>
+        <button class="lang-btn" id="lang-btn">EN</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-greeting" id="hero-greeting">Merhaba, Ben</p>
+        <h1 class="hero-name" id="hero-name">Canberk Sezgin</h1>
+        <h2 class="hero-title" id="hero-title">Bilgisayar Mühendisi</h2>
+        <p class="hero-subtitle" id="hero-subtitle">Yazılım Geliştirme • Yapay Zeka • Full Stack</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary" id="hero-cta">Benimle İletişime Geçin</a>
+          <a href="CvS.pdf" download class="btn-outline" id="hero-cv">CV İndir</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-pic-wrapper">
+          <img src="assets/profile.png" alt="Canberk Sezgin" id="profile-photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" id="about-title">Hakkımda</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content reveal">
+        <div>
+          <p class="about-text" id="about-text">
+            Erciyes Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme, yapay zeka ve tam
+            yığın (full-stack) geliştirme alanlarında çalışıyorum. Django ve ASP.NET Core ile full-stack web
+            uygulamaları, Flutter ile cross-platform mobil uygulamalar, PyTorch ve TensorFlow ile derin öğrenme
+            modelleri geliştirdim. TÜBİTAK projeleri, Fermilab araştırmaları ve kurumsal yazılım stajlarıyla backend
+            mimarisi, REST API entegrasyonu ve veritabanı yönetimi konularında deneyim kazandım.
+          </p>
+        </div>
+        <div>
+          <h3 class="section-title" id="skills-title"
+            style="font-size: var(--text-2xl); text-align: left; -webkit-text-fill-color: initial; background: none; color: var(--color-text-primary);">
+            Teknik Yetenekler</h3>
+          <div class="skills-grid" style="margin-top: 1rem;">
+            <div class="skill-card">
+              <div class="skill-label" id="skill-languages-label">Programlama Dilleri</div>
+              <div class="skill-value" id="skill-languages-val">C#, C, Python, Java, Dart, JavaScript</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-label" id="skill-frameworks-label">Framework'ler</div>
+              <div class="skill-value" id="skill-frameworks-val">Flask, Spring, ASP.NET Core, Flutter</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-label" id="skill-technologies-label">Teknolojiler</div>
+              <div class="skill-value" id="skill-technologies-val">Unity, Git, Cloudflare, Arduino</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" id="education-title">Eğitim</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="reveal">
+        <div class="education-card">
+          <div class="edu-header">
+            <div>
+              <h3 class="edu-school" id="edu-school">Erciyes Üniversitesi</h3>
+              <p class="edu-degree" id="edu-degree">Bilgisayar Mühendisliği Lisans</p>
+            </div>
+            <span class="edu-date" id="edu-date">Ekim 2022 - Haziran 2026</span>
+          </div>
+          <p class="edu-desc" id="edu-desc">
+            2022-2023 dönemini birincilikle tamamlayarak üstün başarı bursu almaya hak kazandım. (3.72 GPA)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" id="experience-title">Deneyim</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+
+        <!-- Exp 1 - BILSOFT Jan 2026 (Most Recent) -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3 class="exp-title" id="exp1-title">Yazılım Geliştirme Stajyeri</h3>
+            <p class="exp-company" id="exp1-company">BILSOFT YAZILIM BİLGİSAYAR TİC. LTD. ŞTİ.</p>
+            <p class="exp-date" id="exp1-date">18.01.2026 – 13.02.2026</p>
+            <ul class="exp-bullets" id="exp1-bullets">
+              <li>Flutter kullanarak çapraz platform Ajanda Modülü tasarladım ve geliştirdim.</li>
+              <li>Güvenli kullanıcı kimlik doğrulaması uyguladım ve RESTful API'ler ile oturum yönetimi sağladım.</li>
+              <li>Etkinlik hatırlatıcıları, push bildirimler ve kapsamlı not alma sistemi gibi çekirdek verimlilik
+                özelliklerini geliştirdim.</li>
+              <li>MySQL (SQLyog) kullanarak arka uç veri operasyonlarını ve veritabanı yapılarını yönettim.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Exp 5 - Posco Assan TST Aug 2025 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3 class="exp-title" id="exp5-title">Ağ Stajyeri</h3>
+            <p class="exp-company" id="exp5-company">Posco Assan TST</p>
+            <p class="exp-date" id="exp5-date">04.08.2025 - 29.08.2025</p>
+            <ul class="exp-bullets" id="exp5-bullets">
+              <li>Kurumsal ağ altyapısında Cisco Catalyst 2960S / 3560 / çok katmanlı anahtarları yapılandırdım ve sorun
+                giderdim.</li>
+              <li>ROMMON kurtarma ve fabrika sıfırlaması sonrası SolarWinds TFTP ve XMODEM kullanarak Cisco IOS
+                yükselttim.</li>
+              <li>Güvenli ağ segmentasyonu ve uzaktan erişim için VLAN'lar, Port Güvenliği ve SSH (v2) uyguladım.</li>
+              <li>Cisco Packet Tracer ile EIGRP ve DHCP yapılandırmalarını kullanarak çok siteli WAN topolojisi
+                tasarladım.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Exp 4 - Kuantum Teknolojileri Jul 2024 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3 class="exp-title" id="exp4-title">Sözleşmeli Yazılım Mühendisi</h3>
+            <p class="exp-company" id="exp4-company">Kuantum Teknolojileri</p>
+            <p class="exp-date" id="exp4-date">11.07.2024 – Devam Ediyor</p>
+            <ul class="exp-bullets" id="exp4-bullets">
+              <li>Silicon Valley'de sunulan devam eden bir TÜBİTAK projesinde önemli kilometre taşlarına katkı sağladım.
+              </li>
+              <li>Çeşitli teknik görevlerde Arduino kullanarak Ar-Ge çalışmalarına yardımcı oldum.</li>
+              <li>Flutter ve Dart kullanarak Düzce Üniversitesi için bir mobil uygulama geliştirmede kilit rol oynadım.
+              </li>
+              <li>Uygulamanın işlevselliğini ve performansını artırmak için backend API desteği entegre ettim.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Exp 2 - BILSOFT Jul 2024 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3 class="exp-title" id="exp2-title">Yazılım Geliştirme Stajyeri</h3>
+            <p class="exp-company" id="exp2-company">BILSOFT YAZILIM BİLGİSAYAR TİC. LTD. ŞTİ.</p>
+            <p class="exp-date" id="exp2-date">22.07.2024 - 28.08.2024</p>
+            <ul class="exp-bullets" id="exp2-bullets">
+              <li>Müşteriler tarafından kullanılan muhasebe yazılımlarını geliştirdim ve bakımını yaptım.</li>
+              <li>Program performansını optimize etme ve hata düzeltme süreçlerine katkıda bulundum.</li>
+              <li>Yazılımın kararlılığını ve verimliliğini sağlamak için geliştirme ekibiyle iş birliği yaptım.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Exp 3 - Fermilab Feb 2024 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3 class="exp-title" id="exp3-title">Lisansüstü Araştırmacı ve Yazılım Mühendisi</h3>
+            <p class="exp-company" id="exp3-company">Fermilab</p>
+            <p class="exp-date" id="exp3-date">Şubat 2024 – Devam Ediyor</p>
+            <ul class="exp-bullets" id="exp3-bullets">
+              <li>Yapay Zeka, Makine Öğrenimi, Derin Öğrenme ve Veri Bilimi üzerine çalışmalar yürütmekteyim.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Exp 6 - CAL TÜBİTAK 2019 (Earliest) -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3 class="exp-title" id="exp6-title">Yazılım Mühendisi</h3>
+            <p class="exp-company" id="exp6-company">CAL TÜBİTAK, Düzce Büyükşehir Belediyesi</p>
+            <p class="exp-date" id="exp6-date">Nisan 2019 - Ekim 2020</p>
+            <ul class="exp-bullets" id="exp6-bullets">
+              <li>Python kullanarak bitkilerin en verimli optimal koşullarda büyüme oranını grafiklendiren uygulamada
+                önemli rol aldım.</li>
+              <li>TÜBİTAK tarafından Düzce bölgesinde birincilik elde ettim.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" id="projects-title">Projeler</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-icon">🚗</div>
+          <h3 class="project-title" id="proj1-title">Exys – Oto Ekspertiz Yönetim Sistemi</h3>
+          <p class="project-desc" id="proj1-desc">
+            Birden fazla araç muayene şirketi tarafından kullanılan tam yığın oto ekspertiz yönetim sistemi. Django ve
+            REST API mimarisi ile backend servisleri, duyarlı HTML/CSS/JS arayüzleri ve dinamik veri görselleştirme
+            geliştirdim.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag" id="proj1-tech">Django, Python, HTML, JavaScript, Bootstrap, SQLite/PostgreSQL</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-icon">🍽️</div>
+          <h3 class="project-title" id="proj2-title">MoodFood</h3>
+          <p class="project-desc" id="proj2-desc">
+            Yapay zeka ile menüleri analiz ederek kullanıcının ruh haline göre yemek öneren bir mobil uygulama. GPT-3
+            (ollama3) ve TensorFlow ile eğitilmiş bir yapay zeka sohbet botu oluşturdum.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag" id="proj2-tech">Python, Dart, Flutter, MATLAB</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-icon">📱</div>
+          <h3 class="project-title" id="proj3-title">QR Code Menü & Stok Takip Sistemi</h3>
+          <p class="project-desc" id="proj3-desc">
+            Restoran için QR kod ile menü görüntüleme, sipariş ve ödeme işlemleri, haftalık satış takibi ve envanter
+            yönetimi. Güvenlik duvarı entegrasyonlu yönetici paneli tasarladım.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag" id="proj3-tech">C#, MySQL, ASP.NET Core, HTML, CSS</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal">
+          <div class="project-icon">💪</div>
+          <h3 class="project-title" id="proj4-title">Spor Salonu Yönetim Sistemi</h3>
+          <p class="project-desc" id="proj4-desc">
+            Spor salonlarındaki üyelerin üyelik tarihlerini, antrenmanlarını, BKI'lerini ve satın alımlarını kontrol
+            eden bir program. Yönetici paneli tasarlayıp programladım.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag" id="proj4-tech">C#, Python</span>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card reveal">
+          <div class="project-icon">🤖</div>
+          <h3 class="project-title" id="proj5-title">Gerçek vs. Sahte Görüntü Sınıflandırma (Açıklanabilir AI)</h3>
+          <p class="project-desc" id="proj5-desc">
+            PyTorch ve Transfer Learning (VGG19) kullanarak gerçek ve yapay zeka tarafından üretilmiş görüntüleri
+            sınıflandıran derin öğrenme hattı. Grad-CAM ile model dikkat ısı haritaları görselleştirmesi sağladım.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag" id="proj5-tech">Python, PyTorch, OpenCV, Scikit-learn, Matplotlib</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" id="contact-title">İletişim</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content reveal">
+        <p class="contact-subtitle" id="contact-subtitle"></p>
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <p class="contact-label" id="contact-email-label">E-posta</p>
+            <p class="contact-value">
+              <a href="mailto:cnbrkszgn81@gmail.com">cnbrkszgn81@gmail.com</a>
+            </p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">🔗</div>
+            <p class="contact-label" id="contact-linkedin-label">LinkedIn</p>
+            <p class="contact-value">
+              <a href="https://www.linkedin.com/in/canberk-sezgin-44295b25b" target="_blank" rel="noopener noreferrer"
+                id="contact-linkedin-text">LinkedIn Profilim</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p id="footer-text">© 2026 Canberk Sezgin. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
