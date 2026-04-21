@@ -36,8 +36,12 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("skill-languages-val").textContent = t.skillLanguagesVal;
         document.getElementById("skill-frameworks-label").textContent = t.skillFrameworks;
         document.getElementById("skill-frameworks-val").textContent = t.skillFrameworksVal;
-        document.getElementById("skill-technologies-label").textContent = t.skillTechnologies;
-        document.getElementById("skill-technologies-val").textContent = t.skillTechnologiesVal;
+        document.getElementById("skill-mlai-label").textContent = t.skillMlAi;
+        document.getElementById("skill-mlai-val").textContent = t.skillMlAiVal;
+        document.getElementById("skill-cloud-label").textContent = t.skillCloud;
+        document.getElementById("skill-cloud-val").textContent = t.skillCloudVal;
+        document.getElementById("skill-tools-label").textContent = t.skillTools;
+        document.getElementById("skill-tools-val").textContent = t.skillToolsVal;
 
         // Education
         document.getElementById("education-title").textContent = t.educationTitle;
@@ -48,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Experience
         document.getElementById("experience-title").textContent = t.experienceTitle;
-        for (let i = 1; i <= 6; i++) {
+        for (let i = 1; i <= 5; i++) {
             document.getElementById(`exp${i}-title`).textContent = t[`exp${i}Title`];
             document.getElementById(`exp${i}-company`).textContent = t[`exp${i}Company`];
             document.getElementById(`exp${i}-date`).textContent = t[`exp${i}Date`];
@@ -75,6 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("contact-email-label").textContent = t.contactEmail;
         document.getElementById("contact-linkedin-label").textContent = t.contactLinkedIn;
         document.getElementById("contact-linkedin-text").textContent = t.contactLinkedInText;
+        document.getElementById("contact-github-label").textContent = t.contactGitHub;
+        document.getElementById("contact-github-text").textContent = t.contactGitHubText;
 
         // Footer
         document.getElementById("footer-text").textContent = t.footerText;
