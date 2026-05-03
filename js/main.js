@@ -82,6 +82,11 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("contact-github-label").textContent = t.contactGitHub;
         document.getElementById("contact-github-text").textContent = t.contactGitHubText;
 
+        // Presentations
+        document.getElementById("presentations-title").textContent = t.presentationsTitle;
+        document.getElementById("pres1-label").textContent = t.pres1Label;
+        document.getElementById("pres1-text").textContent = t.pres1Text;
+
         // Footer
         document.getElementById("footer-text").textContent = t.footerText;
     }

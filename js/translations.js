@@ -118,6 +118,11 @@ const translations = {
         contactGitHub: "GitHub",
         contactGitHubText: "GitHub Profilim",
 
+        // Presentations
+        presentationsTitle: "Sunumlar",
+        pres1Label: "SoftSec Sunumu",
+        pres1Text: "Sunumu Görüntüle / İndir",
+
         // Footer
         footerText: "© 2026 Canberk Sezgin. Tüm hakları saklıdır."
     },
@@ -239,6 +244,11 @@ const translations = {
         contactLinkedInText: "My LinkedIn Profile",
         contactGitHub: "GitHub",
         contactGitHubText: "My GitHub Profile",
+
+        // Presentations
+        presentationsTitle: "Presentations",
+        pres1Label: "SoftSec Presentation",
+        pres1Text: "View / Download Presentation",
 
         // Footer
         footerText: "© 2026 Canberk Sezgin. All rights reserved."
