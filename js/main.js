@@ -86,6 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("presentations-title").textContent = t.presentationsTitle;
         document.getElementById("pres1-label").textContent = t.pres1Label;
         document.getElementById("pres1-text").textContent = t.pres1Text;
+        document.getElementById("pres2-label").textContent = t.pres2Label;
+        document.getElementById("pres2-text").textContent = t.pres2Text;
 
         // Footer
         document.getElementById("footer-text").textContent = t.footerText;

@@ -122,6 +122,8 @@ const translations = {
         presentationsTitle: "Sunumlar",
         pres1Label: "SoftSec Sunumu",
         pres1Text: "Sunumu Görüntüle / İndir",
+        pres2Label: "DeepLearning Sunumu",
+        pres2Text: "Sunumu Görüntüle / İndir",
 
         // Footer
         footerText: "© 2026 Canberk Sezgin. Tüm hakları saklıdır."
@@ -249,6 +251,8 @@ const translations = {
         presentationsTitle: "Presentations",
         pres1Label: "SoftSec Presentation",
         pres1Text: "View / Download Presentation",
+        pres2Label: "DeepLearning Presentation",
+        pres2Text: "View / Download Presentation",
 
         // Footer
         footerText: "© 2026 Canberk Sezgin. All rights reserved."
